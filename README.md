@@ -20,3 +20,5 @@ Usage: rbk_nas_creds_reset.py [-hDH] [-i input_file] [-c cluster_creds] [rubrik,
 -c | --creds : Specify cluster creds on CLI.  This is not secure.
 rubrik, ..., rubrik : List rubrik clusters on the CLI.  Use this if not using -i
 </pre>
+
+Note:  The script is intended to be run on either Python 2 or 3.  The 'rubrik-cdm' package needs to be installed via pip/pip3.
