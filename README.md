@@ -1,7 +1,7 @@
 # rbk_nas_creds_reset
 A script to reset SMB NAS credentials on Rubrik clusters
 
-This was built for a particular customer use case but others may find the code useful.  Feel free to file issues for updates or fork the cdoe and contribute!
+This was built for a particular customer use case but others may find the code useful.  Feel free to file issues for updates or fork the code and contribute!
 
 The concept is to scan a set of Rubrik clusters and bulk replace the SMB user (not the API user) for NAS hosts.  This can be helpful if a password had changed or if reconfiguring is needed.
 
